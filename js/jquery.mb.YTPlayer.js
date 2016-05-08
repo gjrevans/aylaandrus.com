@@ -11,7 +11,7 @@ $(document).ready(function($) {
 	});
 
     var onMobile = false;
-            
+
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) { onMobile = true; }
     if( ( onMobile === false ) ) {
 
@@ -34,7 +34,7 @@ $(document).ready(function($) {
             // Chose your transition effect (See the documentation provided in your download pack)
             transition: 'fade'
         });
-    
+
     }
 
 });

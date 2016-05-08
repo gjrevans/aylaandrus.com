@@ -15,10 +15,11 @@ $(window).load(function() {
         $('body').vegas({
             slides: [
                 { src: 'img/slide-1.jpg' }
+                //{ src: 'img/slide-2.jpg' }
             ],
 
             // Delay beetween slides in milliseconds.
-            delay: 5000,
+            delay: 8000,
 
             // Chose your transition effect (See the documentation provided in your download pack)
             transition: 'fade'
@@ -43,7 +44,7 @@ $(window).load(function() {
         shuffle:            false,
         cover:              true,
         color:              null,
-        align:              'center',
+        align:              '70%',
         valign:             'center',
         transition:         'fade',
         transitionDuration: 1000,
