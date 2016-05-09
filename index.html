@@ -62,11 +62,10 @@
 			<nav>
 				<ul>
 					<li>
-						<a href="#" id="open-more-info" data-target="right-side" class="light-btn text-intro opacity-0">About Me</a>
+						<a href="#" id="open-more-info" data-target="right-side" class="light-btn text-intro opacity-0">Learn More</a>
 					</li>
 					<li>
-						<a class="action-btn text-intro opacity-0" href="mailto:aandrus@ndnet.ccnm.edu?subject=New%20Appointment">Get in Touch</a>
-						<!--a data-dialog="somedialog" class="action-btn trigger text-intro opacity-0">Get in Touch</a-->
+						<a class="action-btn text-intro opacity-0 typeform-share" href="https://collectorforms.typeform.com/to/brKWA4" data-mode="2" target="_blank">Book an Appointment</a>
 					</li>
 				</ul>
 			</nav>
@@ -75,12 +74,10 @@
 
 		<!-- Social icons -->
 		<div class="social-icons">
-
 			<a href="#"><i class="fa fa-facebook"></i></a>
 			<a href="#"><i class="fa fa-twitter"></i></a>
 			<a href="#"><i class="fa fa-google-plus"></i></a>
 			<a href="#"><i class="fa fa-linkedin"></i></a>
-
 		</div>
 
 	</section>
@@ -89,98 +86,90 @@
 	<!-- START - More Informations/Right Part -->
 	<section id="right-side" class="hide-right">
 		<div class="content">
-			<h3>Ayla Andrus</h3>
+			<!-- SECTION 1 -->
+			<h3>About Me</h3>
 			<p>Naturopathy or naturopathic medicine is a form of alternative medicine employing a wide array of "natural" modalities, including homeopathy, herbalism, and acupuncture, as well as diet and lifestyle counseling. Naturopaths favor a holistic approach with non-invasive treatment and generally avoid the use of surgery and drugs.</p>
 			<br><br>
 			<div class="photo-line">
-				<div class="my-gallery row" itemscope itemtype="http://schema.org/ImageGallery">
-					<!-- Item -->
-					<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-xs-12 col-sm-6 col-lg-6 clear-second">
-						<!-- Link to the picture and to open the gallery / Fill up well the data-size property -->
-						<a class="box-picture" href="img/gallery-1.jpg" itemprop="contentUrl" data-size="1920x1280" target="blank">
-							<!-- Your picture -->
-							<img src="img/gallery-1.jpg" itemprop="thumbnail" alt="This is my work" class="img-responsive" />
-							<p>Click</p>
-						</a>
-						<!-- Picture's description below this one -->
-						<figcaption itemprop="caption description">
-							<div class="photo-details">
-								<h4>Ayla Andrus Blog</h4>
-								<span class="border"></span>
-								<p>Weekly updates about my life as a Naturopath.</p>
-							</div>
-						</figcaption>
-					</figure>
+				<div class="my-gallery row">
+					<img src="img/gallery-1.jpg" itemprop="thumbnail" alt="This is my work" class="img-responsive" />
 				</div>
 			</div>
 
+			<!-- SECTION 2 -->
 			<span class="separator"></span>
 
 			<h3>Clinic Hours</h3>
-			<p>I am available for appointments during the folloing windows. Please use the form below to book an appointment at the clinic.</p>
-			<br>
-			<ul class="list-dark">
-				<li>Tue: 9am - 1pm & 3pm - 7pm</li>
-				<li>Wed: 3pm - 7pm</li>
-				<li>Sat: 11am - 3pm</li>
-			</ul>
+			<p>I am available for appointments during the folloing windows. Please use the form below to book an appointment with me at the clinic.</p>
+			<br />
+			<table>
+				<thead>
+					<th>
+						<td>Morning</td>
+						<td>Afternoon</td>
+					</th>
+				<thead>
+				<tbody>
+					<tr>
+						<td>Tuesday</td>
+						<td>9am - 1pm</td>
+						<td>3pm - 7pm</td>
+					</tr>
+					<tr>
+						<td>Wednesday</td>
+						<td>na</td>
+						<td>3pm - 7pm</td>
+					</tr>
+					<tr>
+						<td>Saturday</td>
+						<td>11am - 1pm</td>
+						<td>1pm - 3pm</td>
+					</tr>
+				</tbody>
+			</table>
+
 			<span class="separator"></span>
 
-
-			<h3>Book an Appointment</h3>
-
+			<!-- SECTION 3 -->
+			<h3>Clinic Information</h3>
 			<p>Let me help you become the best version of yourself. In the form below please describe the reason for your visit and some of your upcoming availabilities for an appointment.</p>
 
-			<!-- START - Contact Form -->
-			<form id="contact-form" name="contact-form" method="POST" data-name="Contact Form">
+			<h4>Your First Visit</h4>
+			<p>Your first visit is scheduled for 1 hour but additional time is suggested to allow for check in and paying at the end of your appointment. If you aren't able to complete the intake forms above before your visit please come 20 minutes early to fill them out at the clinic. Follow up visits are scheduled for 45-60 minutes.</p>
+			<p>A full history of your case will be taken during the first visit with a partial physical exam during your second vist. Treatment plans are discussed during your second or third visit once your case has been fully reviewed.</p>
 
-				<div class="row">
+			<h4>Pricing</h4>
+			<p>Initial Consultation and Follow-up Appointments last approximately 60 minutes.</p><br />
+			<table>
+				<tbody>
+					<tr>
+						<td>Adult<td>
+						<td colspan="2"> </td>
+						<td class="right">$42.00<td>
+					</tr>
+					<tr>
+						<td>Senior (65+)/Pediatric (Under 18)<td>
+						<td colspan="2"> </td>
+						<td class="right">$31.50<td>
+					</tr>
+					<tr>
+						<td>Full Time Student<td>
+						<td colspan="2"> </td>
+						<td class="right">$16.50<td>
+					</tr>
+				</tbody>
+			</table>
 
-					<!-- Full name -->
-					<div class="col-xs-12 col-sm-6 col-lg-6">
-						<div class="form-group">
-							<input type="text" id="name" class="form form-control" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" name="name" data-name="Name" required>
-						</div>
-					</div>
-
-					<!-- E-mail -->
-					<div class="col-xs-12 col-sm-6 col-lg-6">
-						<div class="form-group">
-							<input type="email" id="email" class="form form-control" placeholder="Your Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email'" name="email-address" data-name="Email Address" required>
-						</div>
-					</div>
-
-					<!-- Subject -->
-					<div class="col-xs-12 col-sm-12 col-lg-12">
-						<div class="form-group">
-							<input type="text" id="subject" class="form form-control" placeholder="Write the subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Write the subject'" name="subject" data-name="Subject">
-						</div>
-					</div>
-
-					<!-- Message -->
-					<div class="col-xs-12 col-sm-12 col-lg-12 no-padding">
-						<div class="form-group">
-							<textarea id="text-area" class="form textarea form-control" placeholder="Your message here... 20 characters Min." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your message here... 20 characters Min.'" name="message" data-name="Text Area" required></textarea>
-						</div>
-					</div>
-
-				</div>
-
-				<!-- Button submit -->
-				<button type="submit" id="valid-form" class="btn btn-color">Send my Message</button>
-
-			</form>
-			<!-- END - Contact Form -->
-
-			<!-- Answer for the contact form is displayed in the next div, do not remove it. -->
-			<div id="block-answer">
-				<div id="answer"></div>
+			<div class="booking">
+				<a class="appointment-btn typeform-share" href="https://collectorforms.typeform.com/to/brKWA4" data-mode="2" target="_blank">Book an Appointment</a>
 			</div>
+			<!-- END - Contact Form -->
+			<span class="separator"></span>
 
 			<div class="info-contact row">
 				<div class="col-xs-12 col-sm-4 col-lg-4 item-map">
 					<div class="contact-item"><i class="icon ion-ios-telephone"></i>
-						<p>Phone: (+33) 66-1254-611<br>Fax: (+38) 66-1254-989</p>
+						<p>Phone<br /><a href="tel:306-717-8679">1 (306) 717-8679</a></p>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-lg-4 item-map">
@@ -190,198 +179,59 @@
 				</div>
 				<div class="col-xs-12 col-sm-4 col-lg-4 item-map">
 					<div class="contact-item"><i class="icon ion-ios-email"></i>
-						<p>My Email<br /><a href="mailto:aandrus@ndnet.ccnm.edu?subject=New%20Appointment">aandrus@ndnet.ccnm.edu</a></p>
+						<p>Email<br /><a href="mailto:aandrus@ndnet.ccnm.edu?subject=New%20Appointment">aandrus@ndnet.ccnm.edu</a></p>
 					</div>
 				</div>
 			</div>
 
-			</div>
-				<!-- /. Content -->
-
-				<footer>
-
-					<p>© Ayla Andrus - 2016</p>
-
-				</footer>
-
-			</section>
-			<!-- START - More Informations/Right Part -->
-
-			<!-- Button Cross to close the More Informations/Right Part -->
-			<button id="close-more-info" class="hide-close"><i class="icon ion-ios-close-outline"></i></button>
-
-			<!-- START - Newsletter Popup -->
-			<div id="somedialog" class="dialog">
-
-				<div class="dialog__overlay"></div>
-
-				<div class="dialog__content">
-
-					<div class="dialog-inner">
-
-						<h4>You like taking the lead of line?</h4>
-
-						<p>Being the first to know always feels great... Signing up to our newsletter gives you <strong>exclusive access to our Grand Opening!</strong></p>
-
-						<!-- Newsletter Form -->
-						<div id="subscribe">
-
-							<form action="php/notify-me.php" id="notifyMe" method="POST">
-
-								<div class="form-group">
-
-									<div class="controls">
-
-										<!-- Field  -->
-										<input type="text" id="mail-sub" name="email" placeholder="Click here to write your email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Click here to write your email'" class="form-control email srequiredField" />
-
-										<!-- Spinner top left during the submission -->
-										<i class="fa fa-spinner opacity-0"></i>
-
-										<!-- Button -->
-										<button class="btn btn-lg submit">Get notified</button>
-
-										<div class="clear"></div>
-
-									</div>
-
-								</div>
-
-							</form>
-
-							<!-- Answer for the newsletter form is displayed in the next div, do not remove it. -->
-							<div class="block-message">
-
-								<div class="message">
-
-									<p class="notify-valid"></p>
-
-								</div>
-
-							</div>
-
-						</div>
-						<!-- /. Newsletter Form -->
-
-					</div>
-					<!-- /. dialog-inner -->
-
-					<!-- Button Cross to close the Newsletter Popup -->
-					<button class="close-newsletter" data-dialog-close><i class="icon ion-close-round"></i></button>
-
-				</div>
-				<!-- /. dialog__content -->
-
-			</div>
-			<!-- END - Newsletter Popup -->
-
-			<!-- Root element of PhotoSwipe, the gallery. Must have class pswp. -->
-			<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-				<!-- Background of PhotoSwipe.
-				It's a separate element as animating opacity is faster than rgba(). -->
-				<div class="pswp__bg"></div>
-
-				<!-- Slides wrapper with overflow:hidden. -->
-				<div class="pswp__scroll-wrap">
-
-					<!-- Container that holds slides.
-					PhotoSwipe keeps only 3 of them in the DOM to save memory.
-					Don't modify these 3 pswp__item elements, data is added later on. -->
-					<div class="pswp__container">
-						<div class="pswp__item"></div>
-						<div class="pswp__item"></div>
-						<div class="pswp__item"></div>
-					</div>
-
-					<!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-					<div class="pswp__ui pswp__ui--hidden">
-
-						<div class="pswp__top-bar">
-
-							<!--  Controls are self-explanatory. Order can be changed. -->
-
-							<div class="pswp__counter"></div>
-
-							<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-							<button class="pswp__button pswp__button--share" title="Share"></button>
-
-							<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-							<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-							<!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-							<!-- element will get class pswp__preloader--active when preloader is running -->
-							<div class="pswp__preloader">
-								<div class="pswp__preloader__icn">
-									<div class="pswp__preloader__cut">
-										<div class="pswp__preloader__donut"></div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-						<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-							<div class="pswp__share-tooltip"></div>
-						</div>
-
-						<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-						</button>
-
-						<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-						</button>
-
-						<div class="pswp__caption">
-							<div class="pswp__caption__center"></div>
-						</div>
-
-					</div>
-
-				</div>
-
-			</div>
-			<!-- /. Root element of PhotoSwipe. Must have class pswp. -->
-
-			<!-- ///////////////////\\\\\\\\\\\\\\\\\\\ -->
-			<!-- ********** Resources jQuery ********** -->
-			<!-- \\\\\\\\\\\\\\\\\\\/////////////////// -->
 		</div>
+		<!-- /. Content -->
+		<footer>
+			<p>© Ayla Andrus - 2016</p>
+		</footer>
+
 	</section>
+	<!-- START - More Informations/Right Part -->
 
-		<!-- * Libraries jQuery, Easing and Bootstrap - Be careful to not remove them * -->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.easings.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+	<!-- Button Cross to close the More Informations/Right Part -->
+	<button id="close-more-info" class="hide-close"><i class="icon ion-ios-close-outline"></i></button>
 
-		<!-- Accelerated JavaScript animation JS file -->
-		<script src="js/velocity.min.js"></script>
+	<!-- * Libraries jQuery, Easing and Bootstrap - Be careful to not remove them * -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easings.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
-		<!-- Accelerated JavaScript animation UI JS file -->
-		<script src="js/velocity.ui.min.js"></script>
+	<!-- Accelerated JavaScript animation JS file -->
+	<script src="js/velocity.min.js"></script>
 
-		<!-- Newsletter plugin -->
-		<script src="js/notifyMe.js"></script>
+	<!-- Accelerated JavaScript animation UI JS file -->
+	<script src="js/velocity.ui.min.js"></script>
 
-		<!-- Slideshow/Image plugin -->
-		<script src="js/vegas.js"></script>
+	<!-- Contact form plugin -->
+	<script src="js/contact-me.js"></script>
 
-		<!-- Scroll plugin -->
-		<script src="js/jquery.mousewheel.js"></script>
+	<!-- Slideshow/Image plugin -->
+	<script src="js/vegas.js"></script>
 
-		<!-- Custom Scrollbar plugin -->
-		<script src="js/jquery.mCustomScrollbar.js"></script>
+	<!-- Scroll plugin -->
+	<script src="js/jquery.mousewheel.js"></script>
 
-		<!-- Popup Newsletter Form -->
-		<script src="js/classie.js"></script>
-		<script src="js/dialogFx.js"></script>
+	<!-- Custom Scrollbar plugin -->
+	<script src="js/jquery.mCustomScrollbar.js"></script>
 
-		<!-- Main JS File -->
-		<script src="js/main.js"></script>
+	<!-- Popup Newsletter Form -->
+	<script src="js/classie.js"></script>
+	<script src="js/dialogFx.js"></script>
 
-		<!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
+	<!-- Main JS File -->
+	<script src="js/main.js"></script>
 
-	</body>
+	<!-- Typeform JS -->
+	<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
+
+
+	<!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
+
+</body>
 
 </html>

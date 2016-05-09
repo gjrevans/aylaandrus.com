@@ -89,6 +89,12 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  color: #747c83;
+  width: 100%;
+}
+
+table td.right {
+  float: right;
 }
 
 /* ------------------------------------- */
@@ -377,7 +383,7 @@ h3 {
 
 h4 {
   font-size: 25px;
-  margin-bottom: 25px;
+  margin: 20px 0;
 }
 
 h5 {
@@ -472,7 +478,26 @@ sup {
   display: block;
   float: left;
 }
+
 .action-btn:hover {
+  background: #FFFFFF;
+  color: #2B2D35;
+  border-color: #FFFFFF;
+}
+
+.booking {
+  margin: 20px 0;
+  text-align: center;
+}
+.appointment-btn {
+  background: #00c8aa;
+  display: block;
+  font-weight: 600;
+  padding: 0.7em 2em;
+  color: #FFFFFF;
+}
+
+.appointment-btn:hover {
   background: #FFFFFF;
   color: #2B2D35;
   border-color: #FFFFFF;
