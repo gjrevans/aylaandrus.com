@@ -1495,6 +1495,7 @@ sup {
 }
 .social-icons i {
   color: #FFFFFF;
+  font-size: 24px;
   -webkit-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
   -moz-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
   -ms-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
@@ -1503,7 +1504,7 @@ sup {
 }
 .social-icons a {
   color: white;
-  width: 50px;
+  width: 60px;
   line-height: 50px;
   letter-spacing: 0;
   background: transparent;
