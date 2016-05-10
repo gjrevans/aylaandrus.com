@@ -90,6 +90,18 @@ $(document).ready(function(){
     /* ------------------------------------- */
     /* 2. Action Buttons ................... */
     /* ------------------------------------- */
+    $(".global-overlay").on('mousewheel', function(event) {
+      $(".overlay").toggleClass("skew-part");
+      $("#right-side").toggleClass("hide-right");
+      $("#close-more-info").toggleClass("hide-close");
+      $('.mCSB_scrollTools').toggleClass('mCSB_scrollTools-left');
+      setTimeout(function() {
+          $("#mcs_container").mCustomScrollbar("scrollTo", "#right-side",{
+              scrollInertia:500,
+              callbacks:false
+          });
+      }, 350);
+    });
 
     $('a#open-more-info').on( "click", function() {
         $(".overlay").toggleClass("skew-part");
