@@ -311,7 +311,7 @@ a {
   color: #FFFFFF;
 }
 a:hover {
-  color: #00af94;
+  color: #23527C;
   text-decoration: none !important;
   outline: none !important;
 }
@@ -453,9 +453,12 @@ sup {
 /* ------------------------------------- */
 /* 2. Home ............................. */
 /* ------------------------------------- */
+
+/* Buttons */
 .light-btn {
   background: transparent;
   font-weight: 600;
+  border-radius: 4px;
   padding: 0.7em 2em;
   color: #FFFFFF;
   margin-right: 10px;
@@ -471,6 +474,7 @@ sup {
 
 .action-btn {
   background: #5D8FE4;
+  border-radius: 4px;
   font-weight: 600;
   padding: 0.7em 2em;
   color: #FFFFFF;
@@ -478,11 +482,42 @@ sup {
   display: block;
   float: left;
 }
-
 .action-btn:hover {
   background: #FFFFFF;
-  color: #2B2D35;
+  color: #4970B0;
   border-color: #FFFFFF;
+}
+
+.appointment-btn {
+  margin: 40px 0 0 0;
+  text-align: center;
+  background: #5D8FE4;
+  border-radius: 4px;
+  display: block;
+  font-weight: 600;
+  padding: 0.7em 2em;
+  color: #FFFFFF;
+}
+.appointment-btn:hover {
+  background: #FFFFFF;
+  color: #4970B0;
+  border-color: #FFFFFF;
+}
+
+.blog-btn {
+  margin: 20px 0 0 0;
+  text-align: center;
+  font-weight: 600;
+  display: block;
+  color: #5D8FE4;
+  text-decoration: underline;
+}
+.blog-btn:hover {
+  color: #4970B0;
+  background: none;
+}
+.blog-icon {
+  margin-right: 10px;
 }
 
 /* Tool Tips */
@@ -499,25 +534,6 @@ sup {
   outline: none !important;
 }
 
-/* Booking Button */
-.booking {
-  margin: 20px 0;
-  text-align: center;
-}
-.appointment-btn {
-  background: #5D8FE4;
-  display: block;
-  font-weight: 600;
-  padding: 0.7em 2em;
-  color: #FFFFFF;
-}
-
-.appointment-btn:hover {
-  background: #FFFFFF;
-  color: #2B2D35;
-  border-color: #FFFFFF;
-}
-
 /* About Me */
 .about-me-pic {
   width: 150px;
@@ -526,8 +542,8 @@ sup {
 }
 .about-me img {
   width: 100%;
+  border-radius: 4px;
 }
-
 .about-me p {
   margin-top: -6px;
 }
@@ -691,7 +707,7 @@ sup {
   height: 2px;
   background: #FFFFFF;
   width: 100%;
-  margin: 50px 0 60px;
+  margin: 40px 0 20px;
 }
 #right-side .content p {
   color: #747c83;
@@ -1156,7 +1172,7 @@ sup {
   transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
 }
 #subscribe #notifyMe .form-group button.submit:hover {
-  background: #00af94;
+  background: #23527C;
   color: #FFFFFF;
 }
 #subscribe .block-message {
@@ -1417,7 +1433,7 @@ sup {
   line-height: 10px;
 }
 #contact-form button#valid-form:hover {
-  background: #00af94;
+  background: #23527C;
   color: #FFFFFF;
 }
 
